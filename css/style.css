@@ -1,0 +1,109 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.title_large {
+  font-size: 3.4rem;
+}
+
+.slider {
+    width: 1318px;
+    height: 625px;
+    margin: 0 auto;
+    box-shadow: 0 4px 17px;
+    background: #000;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 106px;
+}
+
+.slider:after {
+    content: '';
+    background: url("../img/Layer-2.jpg") no-repeat bottom;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .5;
+}
+
+.slider__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 954px;
+    margin: 0 auto;
+}
+
+.slider__section {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 40px;
+    max-width: 626px;
+}
+
+.tags {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 1.2rem;
+}
+
+.slider__tags {
+    max-width: 626px;
+}
+
+.slider__tag {
+    border-radius: 13px;
+    margin-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.slider__tag:last-child {
+    margin-right: 0;
+}
+
+.tag_technology {
+    background-color: #db8b25;
+    padding-left: 14px;
+    padding-right: 17px;
+}
+
+.tag_startups {
+    background-color: #1d97da;
+    padding-left: 15px;
+    padding-right: 16px;
+}
+
+.slider__text {
+    max-width: 380px;
+}
+
+.slider__text-title {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.slider__text-content {
+    width: 328px;
+    line-height: 21px;
+}
