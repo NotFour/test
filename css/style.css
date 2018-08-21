@@ -1,0 +1,237 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, button, body {
+    margin: 0;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.title_large {
+    font-size: 3.4rem;
+}
+
+.slider {
+    width: 1320px;
+    margin: 0 auto;
+    box-shadow: 0 4px 17px;
+    background:  url("../img/layer-2.jpg") no-repeat 3px 94%;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 106px;
+}
+
+.slider:after {
+    content: '';
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.slider__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 954px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-right: 44px;
+    position: relative;
+    z-index: 1;
+}
+
+.slider__section {
+    margin-top: 40px;
+    max-width: 626px;
+}
+
+.tags {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: 1.2rem;
+}
+
+.slider__tag {
+    border-radius: 13px;
+    margin-right: 14px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.slider__tag:last-child {
+    margin-right: 0;
+}
+
+.tag__technology {
+    background-color: #db8b25;
+    padding-left: 14px;
+    padding-right: 16px;
+    letter-spacing: .2px;
+}
+
+.tag__startups {
+    background-color: #1d97da;
+    padding-left: 14px;
+    padding-right: 15px;
+    letter-spacing: .3px;
+}
+
+.slider__text {
+    max-width: 380px;
+}
+
+.slider__text-title {
+    margin-top: 41px;
+    margin-bottom: 16px;
+}
+
+.slider__text-content {
+    width: 328px;
+    line-height: 24px;
+    letter-spacing: .02px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.slider__text-link {
+    padding: 13px 21px 8px 20px;
+    letter-spacing: .3px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #1d97da;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon:before {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider__text-icon:before {
+    width: 15px;
+    height: 12px;
+    background: url("../img/icons.png") 8px -109px;
+}
+
+.slider__statistics {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 58px;
+}
+
+.card {
+    background-color: #fff;
+    width: 194px;
+    box-sizing: border-box;
+    padding: 26px 10px 22px 22px;
+}
+
+.card__icon-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 41px;
+    height: 41px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-right: 9px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card__icon:before {
+    width: 15px;
+    height: 15px;
+}
+
+.card__revenue .card__icon-box {
+    background-color: #26cf31;
+}
+
+.card__revenue-icon:before {
+    background: url("../img/icons.png") -1px 1px;
+}
+
+.card__users .card__icon-box {
+    background-color: #1d96da;
+}
+
+.card__users-icon:before {
+    background: url("../img/icons.png") -1px 92px;
+}
+
+.card__solds .card__icon-box {
+    background-color: #b955cf;
+}
+
+.card__solds-icon:before {
+    background: url("../img/icons.png") -1px -15px;
+}
+
+.card__content {
+    display: inline-block;
+}
+
+.card__value {
+    color: #32394d;
+    display: block;
+    font-size: 2rem;
+    margin-top: 1px;
+}
+
+.card:first-child .card__addition{
+    margin-left: 2px;
+}
+
+.card__addition {
+    color: #989ca8;
+    font-size: 1.1rem;
+}
+
+.section__filters {
+    font-size: 1.2rem;
+    background-color: #fff;
+}
+
+.filters__header {
+    border-bottom: 2px #ecf1f5 solid;
+}
+
+.filters__header-addition {
+    color: #32394d;
+    border-right: 2px #ecf1f5 solid;
+    display: inline-block;
+    width: 156px;
+}
+
+.button__clear {
+    width: 106px;
+}
